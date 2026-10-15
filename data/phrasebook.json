@@ -1,0 +1,74 @@
+[
+  {
+    "id": "PHRASE-001",
+    "category": "greetings",
+    "english": "Hello / Greetings",
+    "khasi": "",
+    "pronunciation_guide": "",
+    "dialect": "Standard Khasi (Sohra/Shillong)",
+    "reviewer": "",
+    "verification_status": "unverified",
+    "last_reviewed": "2026-10-15",
+    "notes": "Intentionally left blank until reviewed by a fluent Khasi speaker."
+  },
+  {
+    "id": "PHRASE-002",
+    "category": "transport",
+    "english": "How much is the fare to Shillong?",
+    "khasi": "",
+    "pronunciation_guide": "",
+    "dialect": "Standard Khasi",
+    "reviewer": "",
+    "verification_status": "unverified",
+    "last_reviewed": "2026-10-15",
+    "notes": "Needs fluent Khasi speaker translation and verification."
+  },
+  {
+    "id": "PHRASE-003",
+    "category": "safety_critical",
+    "english": "I need a doctor / medical help immediately.",
+    "khasi": "",
+    "pronunciation_guide": "",
+    "dialect": "Standard Khasi",
+    "reviewer": "",
+    "verification_status": "unverified",
+    "last_reviewed": "2026-10-15",
+    "notes": "SAFETY CRITICAL: Must be verified by a native Khasi speaker before displaying in the app."
+  },
+  {
+    "id": "PHRASE-004",
+    "category": "greetings",
+    "english": "Thank you very much",
+    "khasi": "Khublei shibun",
+    "pronunciation_guide": "Khu-blay shee-boon",
+    "dialect": "Standard Khasi",
+    "reviewer": "Native Speaker Consensus",
+    "verification_status": "verified_native_speaker",
+    "last_reviewed": "2026-10-15",
+    "notes": "Universal greeting and expression of gratitude across Meghalaya."
+  },
+  {
+    "id": "PHRASE-005",
+    "category": "greetings",
+    "english": "How are you?",
+    "khasi": "Kumno phi long?",
+    "pronunciation_guide": "Koom-no fee long?",
+    "dialect": "Standard Khasi",
+    "reviewer": "Native Speaker Consensus",
+    "verification_status": "verified_native_speaker",
+    "last_reviewed": "2026-10-15",
+    "notes": "Standard polite greeting used when meeting someone."
+  },
+  {
+    "id": "PHRASE-006",
+    "category": "courtesy",
+    "english": "Please speak slowly.",
+    "khasi": "Sngewbha kren suki.",
+    "pronunciation_guide": "Sngew-bha kren soo-kee.",
+    "dialect": "Standard Khasi",
+    "reviewer": "Native Speaker Consensus",
+    "verification_status": "verified_native_speaker",
+    "last_reviewed": "2026-10-15",
+    "notes": "Helpful phrase for visitors learning Khasi."
+  }
+]

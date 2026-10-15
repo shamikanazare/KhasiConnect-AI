@@ -26,8 +26,8 @@ function Print-Failure {
 }
 
 Write-Host "`n==============================================================" -ForegroundColor Green
-Write-Host "          KHASICONNECT AI - DATASET SETUP WIZARD             " -ForegroundColor Green
-Write-Host " AI-Powered Khasi Language Learning, Translation and OCR      " -ForegroundColor Yellow
+Write-Host "      KHASI COMPANION / KHASICONNECT AI - SETUP WIZARD       " -ForegroundColor Green
+Write-Host "  AI-Powered Tourist and Language Assistant for Meghalaya    " -ForegroundColor Yellow
 Write-Host "==============================================================" -ForegroundColor Green
 
 # 1. Check Python
@@ -49,32 +49,42 @@ try {
     Print-Success "All dependencies installed successfully."
 } catch {
     Print-Warning "Pip encountered an issue. Retrying with direct install..."
-    python -m pip install huggingface_hub pyarrow pandas tqdm
+    python -m pip install streamlit datasets pandas pytest huggingface_hub openpyxl pyarrow tqdm
 }
 
 # 3. Download & Organize Datasets
-Print-Header "Step 3: Downloading and Organizing Khasi Datasets"
-Write-Host "Checking and fetching datasets across all modules..." -ForegroundColor Gray
+Print-Header "Step 3: Checking and Fetching Datasets"
+Write-Host "Checking datasets across all modules..." -ForegroundColor Gray
 try {
     python scripts/download_all_datasets.py
-    Print-Success "Datasets verified in datasets/ directory."
+    Print-Success "Datasets verified in datasets/ and data/raw_datasets/ directories."
 } catch {
     Print-Failure "An error occurred during dataset download: $_"
     exit 1
 }
 
-# 4. Audit & Verification
-Print-Header "Step 4: Running Dataset Integrity Audit"
+# 4. Validate Tourism Knowledge Base (System B)
+Print-Header "Step 4: Validating Tourism Knowledge Base (Zero-Hallucination Schema)"
 try {
-    python scripts/verify_datasets.py
-    Print-Success "Dataset verification completed successfully."
+    python scripts/validate_knowledge_base.py
+    Print-Success "Knowledge base schema validated with 0 errors."
 } catch {
-    Print-Failure "Verification check failed: $_"
+    Print-Failure "Knowledge base validation failed: $_"
     exit 1
 }
 
-# 5. Run Test Suite Evaluator (TC-01 to TC-07)
-Print-Header "Step 5: Executing Chapter 7 Benchmark Tests (TC-01 to TC-07)"
+# 5. Run Automated Tests
+Print-Header "Step 5: Running Pytest Test Suite"
+try {
+    python -m pytest tests --quiet
+    Print-Success "All automated tests passed."
+} catch {
+    Print-Failure "Tests failed: $_"
+    exit 1
+}
+
+# 6. Run Chapter 7 Benchmark Evaluator
+Print-Header "Step 6: Executing Chapter 7 Benchmark Tests (TC-01 to TC-07)"
 try {
     python scripts/test_suite_evaluator.py
     Print-Success "Benchmark evaluations (TC-01 to TC-07) executed successfully."
@@ -84,10 +94,11 @@ try {
 }
 
 Write-Host "`n==============================================================" -ForegroundColor Green
-Write-Host "  SETUP COMPLETE! KhasiConnect AI datasets are ready to use.  " -ForegroundColor Green
+Write-Host "  SETUP COMPLETE! Khasi Companion is ready to run.            " -ForegroundColor Green
 Write-Host "==============================================================" -ForegroundColor Green
-Write-Host "`nNext commands you can run in PowerShell:" -ForegroundColor White
-Write-Host "  • Audit files:        python scripts/verify_datasets.py" -ForegroundColor Yellow
-Write-Host "  • Run Test Cases:     python scripts/test_suite_evaluator.py" -ForegroundColor Yellow
-Write-Host "  • Dataset Catalog:    Get-Content DATASETS_OVERVIEW.md" -ForegroundColor Yellow
+Write-Host "`nCommands you can run right now:" -ForegroundColor White
+Write-Host "  * Launch Web App:       streamlit run app.py" -ForegroundColor Yellow
+Write-Host "  * Inspect Datasets:     python scripts/inspect_datasets.py" -ForegroundColor Yellow
+Write-Host "  * Validate Knowledge:   python scripts/validate_knowledge_base.py" -ForegroundColor Yellow
+Write-Host "  * Run Test Suite:       python -m pytest" -ForegroundColor Yellow
 Write-Host ""

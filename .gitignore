@@ -17,10 +17,12 @@ datasets/learning_assistant/khasi_monolingual.csv
 datasets/ocr_image_translation/*.csv
 datasets/ocr_image_translation/sample_images/*.jpg
 datasets/speech_voice/*.csv
+data/raw_datasets/*.parquet
 
 # Keep directory structures and shared resource baseline
 !.gitkeep
 !datasets/**/.gitkeep
+!data/**/.gitkeep
 !datasets/shared_language_resource/*
 
 # OS / Editor files

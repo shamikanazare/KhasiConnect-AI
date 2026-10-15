@@ -1,123 +1,128 @@
-# KhasiConnect AI — Datasets & Language Resources
+# Khasi Companion (KhasiConnect AI)
 
-> **AI-Powered Khasi Language Learning, Translation, and Digital Accessibility**  
-> Multimodal dataset pipeline and benchmarks for Khasi NLP, Machine Translation, Optical Character Recognition, and Speech Assistance.
+> **AI-Powered Khasi Language Learning, Translation, and Meghalaya Tourism Assistant**  
+> Built with strict separation of language training datasets (System A) and zero-hallucination verified tourism facts (System B).
 
 ---
 
-## 👥 Teammate Guide: Setup in 60 Seconds
+## 🌟 9 Core Principles of This Project
 
-If you are a teammate joining the project, follow these simple steps in **PowerShell**:
+1. **Goal**: Build a reliable, tourist-friendly English ↔ Khasi assistant tailored for travelers and locals in Meghalaya, Northeast India.
+2. **Strict Separation of Two Data Systems**:
+   - **System A (Language Datasets)**: Parallel English–Khasi sentences and audio files used only to train or test translation and speech models.
+   - **System B (Tourism Knowledge Base)**: A curated JSON file (`data/knowledge_base.json`) of verified Meghalaya facts (destinations, transport, culture, safety) with official source links and review dates. We never mix training data with factual tourism answers.
+3. **Text-First MVP Priority**: We build a dependable text application first with **Translate**, **Explore Meghalaya**, and **Learn Khasi** modes before adding voice (ASR/TTS) or training heavy models.
+4. **Zero-Hallucination Rule**: The assistant must never invent Khasi translations, cultural rules, opening hours, ticket prices, or emergency numbers. If a fact isn't in our verified Knowledge Base, the app explicitly says it doesn't know.
+5. **Clear Verification Labels**: Every phrase or translation is marked: `verified_official`, `verified_native_speaker`, `needs_review`, `unverified`, or `outdated`.
+6. **Safety-Critical Protections**: Emergency requests, medical questions, or severe food allergy queries never rely on unverified machine translation alone; they immediately direct users to verified human help (Emergency: **112**).
+7. **Dataset & License Discipline**: Inspect columns, check empty/corrupted rows, and verify licenses in `data/source_inventory.csv` before training models.
+8. **Colab / Jupyter Workflow**: Simple Jupyter/Colab notebook (`notebooks/01_inspect_and_prepare.ipynb`) for teammates to inspect and clean dataset folders without requiring ML expertise.
+9. **Transparency on Testing**: Automated test suites for schema validation (`scripts/validate_knowledge_base.py`), unit testing (`pytest`), and benchmark verification (TC-01 through TC-07).
 
-### Step 1: Clone the Repository
-```powershell
-git clone https://github.com/shamikanazare/KhasiConnect-AI.git
-cd KhasiConnect-AI
-```
+---
 
-### Step 2: Run the One-Click Setup Script
+## ⚡ Quick Start for Teammates (One-Click Setup)
+
+Open **PowerShell** in the project directory and run:
+
 ```powershell
 .\setup_datasets.ps1
 ```
 
-> **Note**: If PowerShell shows a script execution policy error, run:
-> ```powershell
-> powershell -ExecutionPolicy Bypass -File .\setup_datasets.ps1
-> ```
+*(If script execution permissions are restricted, run:)*
+```powershell
+powershell -ExecutionPolicy Bypass -File .\setup_datasets.ps1
+```
 
-That's it! The script will automatically:
-- Verify Python 3.10+
-- Install dependencies (`pip install -r requirements.txt`)
-- Download 1.75M+ parallel sentences, 105k+ dictionary entries, and OCR test images
-- Verify file counts and run benchmark test cases (TC-01 to TC-07)
+### What happens automatically:
+1. Validates **Python 3.10+**.
+2. Installs dependencies (`streamlit`, `datasets`, `pandas`, `pytest`, `huggingface_hub`, etc.).
+3. Verifies local datasets across all modules.
+4. Audits the Tourism Knowledge Base schema (0 errors).
+5. Runs the automated `pytest` suite.
+6. Runs the Chapter 7 benchmark tests (TC-01 to TC-07).
 
 ---
 
-## 🛠 Manual Step-by-Step PowerShell Commands
+## 🖥️ Launching the Web App (Text MVP)
 
-If you prefer to run the setup commands manually:
+To start the interactive Streamlit assistant:
 
 ```powershell
-# 1. Install Python package dependencies
-python -m pip install -r requirements.txt
-
-# 2. Download and organize all datasets across modules
-python scripts/download_all_datasets.py
-
-# 3. Verify dataset counts, row numbers, and disk footprint
-python scripts/verify_datasets.py
-
-# 4. Run Chapter 7 benchmark tests (TC-01 through TC-07)
-python scripts/test_suite_evaluator.py
+streamlit run app.py
 ```
+
+This launches the web interface with 3 modes:
+* **🔤 Translate (English ↔ Khasi)**: Verified phrase lookup with safety warnings for medical/emergency phrases.
+* **🗺️ Explore Meghalaya**: Search destinations, transport hubs, and safety rules strictly backed by the verified knowledge base.
+* **📖 Learn Khasi**: Essential everyday phrasebook and traditional cultural pillars (*Tip Kur, Tip Kha*, *Kamai ïa ka Hok*).
 
 ---
 
-## 🌐 How to Push This Repository to GitHub
+## 📓 Google Colab / Jupyter Notebook Guide
 
-### 1. Create an Empty Repository on GitHub
-1. Open your browser and go to: **[https://github.com/new](https://github.com/new)**
-2. Set the repository name to: **`KhasiConnect-AI`**
-3. Choose **Public** or **Private**.
-4. **Important**: Leave "Add a README file", "Add .gitignore", and "Choose a license" **UNCHECKED** (we already have them configured).
-5. Click **Create repository**.
+For teammates who prefer Google Colab or Jupyter without terminal commands:
 
-### 2. Push from PowerShell
-Run either the automated push script:
-```powershell
-.\push_to_github.ps1
-```
-
-Or run the standard Git commands directly:
-```powershell
-git remote add origin https://github.com/shamikanazare/KhasiConnect-AI.git
-git branch -M main
-git push -u origin main
-```
+1. Open **[Google Colab](https://colab.research.google.com/)** and open `notebooks/01_inspect_and_prepare.ipynb`.
+2. Run **Cell 1** to mount Google Drive or access the local dataset folder.
+3. Run **Cell 2** to automatically inspect row counts, columns, nulls, duplicates, and audio files.
+4. Run **Cell 3** to validate `data/knowledge_base.json`.
 
 ---
 
-## 📂 Repository Structure
+## 🛠 Useful Terminal / PowerShell Commands
+
+| Task | Command |
+| :--- | :--- |
+| **Launch App** | `streamlit run app.py` |
+| **Inspect Datasets** | `python scripts/inspect_datasets.py` |
+| **Validate Knowledge Base** | `python scripts/validate_knowledge_base.py` |
+| **Run Pytest Tests** | `python -m pytest` |
+| **Run TC-01 to TC-07 Benchmark** | `python scripts/test_suite_evaluator.py` |
+| **Push Updates to GitHub** | `git add . ; git commit -m "update message" ; git push origin main` |
+
+---
+
+## 📂 Project Structure
 
 ```text
-KhasiConnect-AI/
-├── datasets/                                      # Downloaded data (cleanly organized)
-│   ├── parallel_translation/                      # Module 2: Translation (1.75M+ sentence pairs)
-│   ├── learning_assistant/                        # Module 1: Dictionary & phrases (105k+ words)
-│   ├── ocr_image_translation/                     # Module 3: OCR annotations & sample images
-│   ├── speech_voice/                              # Module 2: Audio-aligned speech metadata
-│   └── shared_language_resource/                  # Unified vocabulary & test suites
+khasi-companion/
+├── app.py                           # Main Streamlit web app (Text MVP)
+├── README.md                        # Project guide for your team
+├── requirements.txt                 # Pinned dependencies
+├── pytest.ini                       # Pytest test configuration
+├── setup_datasets.ps1               # 1-click automated setup wizard
+├── push_to_github.ps1               # Git push helper script
 │
-├── scripts/                                       # Reproducibility & Evaluation Scripts
-│   ├── download_all_datasets.py                   # Master dataset downloader
-│   ├── verify_datasets.py                         # Storage audit & record verification
-│   └── test_suite_evaluator.py                    # Evaluator running TC-01 to TC-07
+├── notebooks/
+│   └── 01_inspect_and_prepare.ipynb # Colab/Jupyter inspection guide
 │
-├── setup_datasets.ps1                             # ⚡ 1-click PowerShell setup wizard
-├── push_to_github.ps1                             # 🚀 Easy GitHub push helper script
-├── requirements.txt                               # Python package dependencies
-├── .gitignore                                     # Clean Git configuration for GitHub
-├── DATASETS_OVERVIEW.md                           # In-depth dataset specifications
-└── README.md                                      # This guide
+├── data/
+│   ├── knowledge_base.json          # Verified tourism facts (System B)
+│   ├── phrasebook.json              # Reviewed & unverified phrases
+│   ├── source_inventory.csv         # Dataset license & source tracker
+│   └── raw_datasets/                # Shared raw dataset folder
+│
+├── datasets/                        # Full multi-modal dataset archive
+│   ├── parallel_translation/       # 1.75M+ parallel sentence pairs
+│   ├── learning_assistant/         # 105k+ dictionary & phrases
+│   ├── ocr_image_translation/      # 2,000 OCR lines & sample crops
+│   ├── speech_voice/               # BhasaFlow audio alignment metadata
+│   └── shared_language_resource/   # Chapter 7 test suite (TC-01 to TC-07)
+│
+├── scripts/
+│   ├── inspect_datasets.py          # Automatic dataset scanner
+│   ├── validate_knowledge_base.py   # Schema & safety rules validator
+│   ├── download_all_datasets.py     # Master dataset downloader
+│   ├── verify_datasets.py           # Integrity checker
+│   └── test_suite_evaluator.py      # Benchmark runner (TC-01 to TC-07)
+│
+├── src/
+│   ├── __init__.py
+│   ├── retrieval.py                 # Safe tourism search (Zero-Hallucination)
+│   └── translation.py               # Phrasebook lookup & safety guards
+│
+└── tests/
+    ├── test_knowledge_base.py       # Automated test for knowledge base schema
+    └── test_retrieval.py            # Automated tests for tourism retrieval & safety
 ```
-
----
-
-## 🤝 Daily Team Collaboration Workflow
-
-When working with teammates on new code or features:
-
-* **Pull latest updates before starting work:**
-  ```powershell
-  git pull origin main
-  ```
-* **Save and share your updates:**
-  ```powershell
-  git add .
-  git commit -m "Description of changes made"
-  git push origin main
-  ```
-* **Re-verify tests before pushing:**
-  ```powershell
-  python scripts/test_suite_evaluator.py
-  ```

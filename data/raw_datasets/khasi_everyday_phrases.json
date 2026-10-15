@@ -1,0 +1,1311 @@
+[
+  {
+    "category": "greetings",
+    "khasi": "Khublei!",
+    "hindi": "नमस्ते! / धन्यवाद!",
+    "english": "Hello! / Greetings! / Thank you!",
+    "audio_hint": "Khublei!"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Kumno phi long?",
+    "hindi": "आप कैसे हैं? / क्या हाल है?",
+    "english": "How are you?",
+    "audio_hint": "Kumno phi long?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Nga khlain bha, khublei.",
+    "hindi": "मैं बिल्कुल ठीक हूँ, धन्यवाद।",
+    "english": "I am very well, thank you.",
+    "audio_hint": "Nga khlain bha, khublei."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Khublei shibun!",
+    "hindi": "बहुत-बहुत धन्यवाद!",
+    "english": "Thank you very much!",
+    "audio_hint": "Khublei shibun!"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Khublei step!",
+    "hindi": "शुभ प्रभात!",
+    "english": "Good morning!",
+    "audio_hint": "Khublei step!"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Khublei miet!",
+    "hindi": "शुभ रात्रि!",
+    "english": "Good night!",
+    "audio_hint": "Khublei miet!"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Kumno ka kyrteng jong phi?",
+    "hindi": "आपका नाम क्या है?",
+    "english": "What is your name?",
+    "audio_hint": "Kumno ka kyrteng jong phi?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Ka kyrteng jong nga ka dei...",
+    "hindi": "मेरा नाम ... है।",
+    "english": "My name is...",
+    "audio_hint": "Ka kyrteng jong nga ka dei..."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Sngewbha wan shane.",
+    "hindi": "कृपया यहाँ आइए।",
+    "english": "Please come here.",
+    "audio_hint": "Sngewbha wan shane."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Sngewbha shong.",
+    "hindi": "कृपया बैठिए।",
+    "english": "Please sit down.",
+    "audio_hint": "Sngewbha shong."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Pdiang sngewbha!",
+    "hindi": "स्वागत है!",
+    "english": "Welcome!",
+    "audio_hint": "Pdiang sngewbha!"
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Map ïa nga.",
+    "hindi": "मुझे क्षमा करें / माफ़ कीजिए।",
+    "english": "Excuse me / Forgive me.",
+    "audio_hint": "Map ïa nga."
+  },
+  {
+    "category": "travel",
+    "khasi": "Shano phi leit?",
+    "hindi": "आप कहाँ जा रहे हैं?",
+    "english": "Where are you going?",
+    "audio_hint": "Shano phi leit?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Nga leit sha Shillong.",
+    "hindi": "मैं शिलांग जा रहा हूँ।",
+    "english": "I am going to Shillong.",
+    "audio_hint": "Nga leit sha Shillong."
+  },
+  {
+    "category": "travel",
+    "khasi": "Nga leit sha Sohra.",
+    "hindi": "मैं सोहरा (चेरापूंजी) जा रहा हूँ।",
+    "english": "I am going to Sohra (Cherrapunji).",
+    "audio_hint": "Nga leit sha Sohra."
+  },
+  {
+    "category": "travel",
+    "khasi": "Hangno ka lynti sha Iewduh?",
+    "hindi": "बड़ाबाज़ार (इयूडूह) का रास्ता कहाँ है?",
+    "english": "Where is the way to Iewduh market?",
+    "audio_hint": "Hangno ka lynti sha Iewduh?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Katno ka dor ka kali?",
+    "hindi": "गाड़ी का किराया कितना है?",
+    "english": "How much is the vehicle fare?",
+    "audio_hint": "Katno ka dor ka kali?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Sngewbha sangeh hangne!",
+    "hindi": "कृपया यहाँ रोकिए!",
+    "english": "Please stop here!",
+    "audio_hint": "Sngewbha sangeh hangne!"
+  },
+  {
+    "category": "travel",
+    "khasi": "Jngai katno na hangne?",
+    "hindi": "यहाँ से कितनी दूर है?",
+    "english": "How far is it from here?",
+    "audio_hint": "Jngai katno na hangne?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Suk ka leit ka wan!",
+    "hindi": "आपकी यात्रा मंगलमय हो!",
+    "english": "Safe travels and peaceful journey!",
+    "audio_hint": "Suk ka leit ka wan!"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Katno ka dor kane?",
+    "hindi": "इसका दाम कितना है?",
+    "english": "How much does this cost?",
+    "audio_hint": "Katno ka dor kane?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Rem eh!",
+    "hindi": "बहुत महँगा है!",
+    "english": "It is too expensive!",
+    "audio_hint": "Rem eh!"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Kham pynhiar khyndiat seh!",
+    "hindi": "थोड़ा कम कीजिए ना!",
+    "english": "Please reduce the price a little bit!",
+    "audio_hint": "Kham pynhiar khyndiat seh!"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Nga kwah ban thied ïa kane.",
+    "hindi": "मैं इसे खरीदना चाहता हूँ।",
+    "english": "I want to buy this.",
+    "audio_hint": "Nga kwah ban thied ïa kane."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Phi don jhur ba-thymmai?",
+    "hindi": "क्या आपके पास ताज़ी सब्ज़ी है?",
+    "english": "Do you have fresh vegetables?",
+    "audio_hint": "Phi don jhur ba-thymmai?"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Bambhatin kwai seh!",
+    "hindi": "सुपारी-पान तो खाइए!",
+    "english": "Do take some betel nut (kwai)!",
+    "audio_hint": "Bambhatin kwai seh!"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Dih sha seh!",
+    "hindi": "चाय तो पी लीजिए!",
+    "english": "Do have some tea!",
+    "audio_hint": "Dih sha seh!"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Phi la bam ja?",
+    "hindi": "क्या आपने खाना खा लिया?",
+    "english": "Have you eaten your meal?",
+    "audio_hint": "Phi la bam ja?"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Hooid, nga la bam ja.",
+    "hindi": "हाँ, मैंने खाना खा लिया।",
+    "english": "Yes, I have eaten.",
+    "audio_hint": "Hooid, nga la bam ja."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Em, ngam pat bam.",
+    "hindi": "नहीं, मैंने अभी नहीं खाया।",
+    "english": "No, I haven't eaten yet.",
+    "audio_hint": "Em, ngam pat bam."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Ka ja ka thiang shibun!",
+    "hindi": "खाना बहुत स्वादिष्ट है!",
+    "english": "The food is very delicious!",
+    "audio_hint": "Ka ja ka thiang shibun!"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Sngewbha ïarap ïa nga!",
+    "hindi": "कृपया मेरी मदद कीजिए!",
+    "english": "Please help me!",
+    "audio_hint": "Sngewbha ïarap ïa nga!"
+  },
+  {
+    "category": "health",
+    "khasi": "Nga sngewpang.",
+    "hindi": "मुझे बीमारी / अस्वस्थता महसूस हो रही है।",
+    "english": "I am feeling unwell / sick.",
+    "audio_hint": "Nga sngewpang."
+  },
+  {
+    "category": "health",
+    "khasi": "Hangno ka hospital?",
+    "hindi": "अस्पताल कहाँ है?",
+    "english": "Where is the hospital?",
+    "audio_hint": "Hangno ka hospital?"
+  },
+  {
+    "category": "health",
+    "khasi": "Khot ïa u doctor!",
+    "hindi": "डॉक्टर को बुलाइए!",
+    "english": "Call the doctor!",
+    "audio_hint": "Khot ïa u doctor!"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Khot ïa ka pulit!",
+    "hindi": "पुलिस को बुलाइए!",
+    "english": "Call the police!",
+    "audio_hint": "Khot ïa ka pulit!"
+  },
+  {
+    "category": "emotion",
+    "khasi": "Nga ieit ïa phi.",
+    "hindi": "मुझे तुमसे प्यार है।",
+    "english": "I love you.",
+    "audio_hint": "Nga ieit ïa phi."
+  },
+  {
+    "category": "emotion",
+    "khasi": "Nga sngewbha shibun ban ïakynduh ïa phi.",
+    "hindi": "आपसे मिलकर मुझे बहुत खुशी हुई।",
+    "english": "I am very pleased to meet you.",
+    "audio_hint": "Nga sngewbha shibun ban ïakynduh ïa phi."
+  },
+  {
+    "category": "daily",
+    "khasi": "Phi sngewthuh?",
+    "hindi": "क्या आप समझे?",
+    "english": "Do you understand?",
+    "audio_hint": "Phi sngewthuh?"
+  },
+  {
+    "category": "daily",
+    "khasi": "Hooid, nga sngewthuh.",
+    "hindi": "हाँ, मैं समझ गया।",
+    "english": "Yes, I understand.",
+    "audio_hint": "Hooid, nga sngewthuh."
+  },
+  {
+    "category": "daily",
+    "khasi": "Em, ngam sngewthuh.",
+    "hindi": "नहीं, मैं नहीं समझा।",
+    "english": "No, I do not understand.",
+    "audio_hint": "Em, ngam sngewthuh."
+  },
+  {
+    "category": "parting",
+    "khasi": "Ngan sa wan biang.",
+    "hindi": "मैं फिर आऊँगा।",
+    "english": "I will come again.",
+    "audio_hint": "Ngan sa wan biang."
+  },
+  {
+    "category": "parting",
+    "khasi": "Noh, ngan leit noh.",
+    "hindi": "अब मैं चलता हूँ।",
+    "english": "Well then, I shall take my leave.",
+    "audio_hint": "Noh, ngan leit noh."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Kumno phi kyrteng?",
+    "hindi": "आपका क्या नाम है?",
+    "english": "What is your name?",
+    "audio_hint": "Kumno phi kyrteng?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Nga wan na Shillong.",
+    "hindi": "मैं शिलांग से आया हूँ।",
+    "english": "I come from Shillong.",
+    "audio_hint": "Nga wan na Shillong."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Sngewbha ban ïakynduh ïa phi.",
+    "hindi": "आपसे मिलकर बहुत खुशी हुई।",
+    "english": "Pleased to meet you / Nice to meet you.",
+    "audio_hint": "Sngewbha ban iakynduh ia phi."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Hangno phi shong phi sah?",
+    "hindi": "आप कहाँ रहते हैं?",
+    "english": "Where do you live / reside?",
+    "audio_hint": "Hangno phi shong phi sah?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Nga shong ha Sohra.",
+    "hindi": "मैं सोहरा (चेरापूंजी) में रहता हूँ।",
+    "english": "I live in Sohra (Cherrapunji).",
+    "audio_hint": "Nga shong ha Sohra."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Kumno ka longing longsem?",
+    "hindi": "घर-परिवार में सब कैसे हैं?",
+    "english": "How is your family doing?",
+    "audio_hint": "Kumno ka longing longsem?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Phi long naei?",
+    "hindi": "आप कहाँ के रहने वाले हैं?",
+    "english": "Where are you originally from?",
+    "audio_hint": "Phi long naei?"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Nga kmen ban ïohi biang ïa phi.",
+    "hindi": "आपको दोबारा देखकर मुझे बहुत खुशी हुई।",
+    "english": "I am glad to see you again.",
+    "audio_hint": "Nga kmen ban iohi biang ia phi."
+  },
+  {
+    "category": "greetings",
+    "khasi": "Khublei sngi!",
+    "hindi": "शुभ दिन! / नमस्ते!",
+    "english": "Good day!",
+    "audio_hint": "Khublei sngi!"
+  },
+  {
+    "category": "greetings",
+    "khasi": "Kumno baroh ki long ha ïing?",
+    "hindi": "घर पर सब लोग कैसे हैं?",
+    "english": "How is everyone doing at home?",
+    "audio_hint": "Kumno baroh ki long ha iing?"
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Mhab ïa nga.",
+    "hindi": "मुझे क्षमा करें। / माफ कीजिए।",
+    "english": "Excuse me / Forgive me / Pardon me.",
+    "audio_hint": "Mhab ia nga."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Wat sngewsih.",
+    "hindi": "बुरा मत मानिए / कोई बात नहीं।",
+    "english": "Don't feel bad / No problem / Don't worry.",
+    "audio_hint": "Wat sngewsih."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Phi lah ban kren Khasi?",
+    "hindi": "क्या आप खासी बोल सकते हैं?",
+    "english": "Can you speak Khasi?",
+    "audio_hint": "Phi lah ban kren Khasi?"
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Nga nang kren khyndiat eh ka ktien Khasi.",
+    "hindi": "मैं केवल थोड़ी-बहुत खासी बोल पाता हूँ।",
+    "english": "I can only speak a little Khasi.",
+    "audio_hint": "Nga nang kren khyndiat eh ka ktien Khasi."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Nga sngewthuh.",
+    "hindi": "मैं समझ गया।",
+    "english": "I understand.",
+    "audio_hint": "Nga sngewthuh."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Ngam sngewthuh satia.",
+    "hindi": "मैं बिल्कुल नहीं समझा।",
+    "english": "I don't understand at all.",
+    "audio_hint": "Ngam sngewthuh satia."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Sngewbha kren suki khyndiat.",
+    "hindi": "कृपया थोड़ा धीरे बोलिए।",
+    "english": "Please speak a little slower.",
+    "audio_hint": "Sngewbha kren suki khyndiat."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Sngewbha ong biang.",
+    "hindi": "कृपया दोबारा कहिए।",
+    "english": "Please say that again / Repeat please.",
+    "audio_hint": "Sngewbha ong biang."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Kumno phi ong ïa kane ha ka ktien Khasi?",
+    "hindi": "आप इसे खासी भाषा में क्या कहते हैं?",
+    "english": "How do you say this in the Khasi language?",
+    "audio_hint": "Kumno phi ong ia kane ha ka ktien Khasi?"
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Iei ka jingmut jong kane?",
+    "hindi": "इसका क्या मतलब है?",
+    "english": "What is the meaning of this?",
+    "audio_hint": "Iei ka jingmut jong kane?"
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Lada phi sngewbha.",
+    "hindi": "यदि आपकी कृपा हो / यदि आपको आपत्ति न हो।",
+    "english": "If you please / If you don't mind.",
+    "audio_hint": "Lada phi sngewbha."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Ka bha eh.",
+    "hindi": "बहुत बढ़िया / उत्तम।",
+    "english": "It is very good / Excellent.",
+    "audio_hint": "Ka bha eh."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Ho-oid, da shisha.",
+    "hindi": "हाँ, बिल्कुल सच में।",
+    "english": "Yes, truly / Indeed.",
+    "audio_hint": "Ho-oid, da shisha."
+  },
+  {
+    "category": "courtesy",
+    "khasi": "Em, ym dei kumta.",
+    "hindi": "नहीं, ऐसा नहीं है।",
+    "english": "No, it is not like that.",
+    "audio_hint": "Em, ym dei kumta."
+  },
+  {
+    "category": "travel",
+    "khasi": "Lada nga kwah leit sha Sohra, kumno ngan leit?",
+    "hindi": "यदि मुझे सोहरा जाना हो, तो कैसे जाऊँ?",
+    "english": "If I want to go to Sohra, how do I go?",
+    "audio_hint": "Lada nga kwah leit sha Sohra, kumno ngan leit?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Katno jngai na shane?",
+    "hindi": "यहाँ से कितनी दूर है?",
+    "english": "How far is it from here?",
+    "audio_hint": "Katno jngai na shane?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Ka jan eh na shane.",
+    "hindi": "यहाँ से बहुत पास है।",
+    "english": "It is very close from here.",
+    "audio_hint": "Ka jan eh na shane."
+  },
+  {
+    "category": "travel",
+    "khasi": "Ka jngai shibun.",
+    "hindi": "यह बहुत दूर है।",
+    "english": "It is very far away.",
+    "audio_hint": "Ka jngai shibun."
+  },
+  {
+    "category": "travel",
+    "khasi": "Phai sha ka mon.",
+    "hindi": "दाहिनी ओर मुड़िए।",
+    "english": "Turn to the right.",
+    "audio_hint": "Phai sha ka mon."
+  },
+  {
+    "category": "travel",
+    "khasi": "Phai sha ka diang.",
+    "hindi": "बाईं ओर मुड़िए।",
+    "english": "Turn to the left.",
+    "audio_hint": "Phai sha ka diang."
+  },
+  {
+    "category": "travel",
+    "khasi": "Ïaid beit beit shaphrang.",
+    "hindi": "सीधे आगे बढ़िए।",
+    "english": "Go straight ahead.",
+    "audio_hint": "Iaid beit beit shaphrang."
+  },
+  {
+    "category": "travel",
+    "khasi": "Hangno ka stand kali?",
+    "hindi": "टैक्सी स्टैंड कहाँ है?",
+    "english": "Where is the taxi / cab stand?",
+    "audio_hint": "Hangno ka stand kali?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Katno ka bai kali sha Police Bazar?",
+    "hindi": "पुलिस बाज़ार का टैक्सी किराया कितना है?",
+    "english": "How much is the taxi fare to Police Bazar?",
+    "audio_hint": "Katno ka bai kali sha Police Bazar?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Sngewbha sangeh shane.",
+    "hindi": "कृपया यहाँ रोकिए।",
+    "english": "Please stop here.",
+    "audio_hint": "Sngewbha sangeh shane."
+  },
+  {
+    "category": "travel",
+    "khasi": "Lano ka kali kan mih?",
+    "hindi": "गाड़ी कब छूटेगी / निकलेगी?",
+    "english": "When will the vehicle depart?",
+    "audio_hint": "Lano ka kali kan mih?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Don kali ba leit sha Jowai?",
+    "hindi": "क्या जोवाई जाने वाली कोई गाड़ी है?",
+    "english": "Is there a vehicle going to Jowai?",
+    "audio_hint": "Don kali ba leit sha Jowai?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Hangno don ka petrol pump?",
+    "hindi": "पेट्रोल पंप कहाँ है?",
+    "english": "Where is the petrol pump / fuel station?",
+    "audio_hint": "Hangno don ka petrol pump?"
+  },
+  {
+    "category": "travel",
+    "khasi": "Nga la jah lynti.",
+    "hindi": "मैं रास्ता भटक गया हूँ।",
+    "english": "I have lost my way / I am lost.",
+    "audio_hint": "Nga la jah lynti."
+  },
+  {
+    "category": "travel",
+    "khasi": "Sngewbha pyni ïa ka lynti ha ka map.",
+    "hindi": "कृपया नक्शे पर रास्ता दिखाइए।",
+    "english": "Please show the route on the map.",
+    "audio_hint": "Sngewbha pyni ia ka lynti ha ka map."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Katno dor kane?",
+    "hindi": "इसकी क्या कीमत है?",
+    "english": "How much does this cost?",
+    "audio_hint": "Katno dor kane?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ka rem palat!",
+    "hindi": "यह बहुत ज्यादा महँगा है!",
+    "english": "It is too expensive!",
+    "audio_hint": "Ka rem palat!"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Lah ban pynhiar khyndiat ka dor?",
+    "hindi": "क्या कीमत थोड़ी कम हो सकती है?",
+    "english": "Can you reduce the price a little bit?",
+    "audio_hint": "Lah ban pynhiar khyndiat ka dor?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ngi lah ban siew da ka UPI ne PhonePe?",
+    "hindi": "क्या हम UPI या PhonePe से भुगतान कर सकते हैं?",
+    "english": "Can we pay using UPI or PhonePe?",
+    "audio_hint": "Ngi lah ban siew da ka UPI ne PhonePe?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ai rishit ïa nga.",
+    "hindi": "मुझे रसीद / बिल दीजिए।",
+    "english": "Give me the receipt / bill.",
+    "audio_hint": "Ai rishit ia nga."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Katno ka dor shikiro?",
+    "hindi": "प्रति किलो क्या भाव है?",
+    "english": "What is the price per kilogram?",
+    "audio_hint": "Katno ka dor shikiro?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Don kwai bad tympew?",
+    "hindi": "क्या सुपारी और पान पत्ता है?",
+    "english": "Do you have betel nut and betel leaf?",
+    "audio_hint": "Don kwai bad tympew?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Kine ki sohkynphor ki thiang bha.",
+    "hindi": "ये संतरे बहुत मीठे हैं।",
+    "english": "These Khasi oranges are very sweet.",
+    "audio_hint": "Kine ki sohkynphor ki thiang bha."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Phi thied shano ïa kane ka jainsem?",
+    "hindi": "आपने यह जैनसेम कहाँ से खरीदी?",
+    "english": "Where did you buy this jainsem?",
+    "audio_hint": "Phi thied shano ia kane ka jainsem?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Nga kwah ar kilo u phan.",
+    "hindi": "मुझे दो किलो आलू चाहिए।",
+    "english": "I want two kilograms of potatoes.",
+    "audio_hint": "Nga kwah ar kilo u phan."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ai noh ïa ka pisa ba sah.",
+    "hindi": "बाकी बचे हुए पैसे (छुट्टे) दे दीजिए।",
+    "english": "Please give back the change money.",
+    "audio_hint": "Ai noh ia ka pisa ba sah."
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ka dukan ka plie mynno?",
+    "hindi": "दुकान कब खुलती है?",
+    "english": "When does the shop open?",
+    "audio_hint": "Ka dukan ka plie mynno?"
+  },
+  {
+    "category": "commerce",
+    "khasi": "Ka dukan ka khang mynno?",
+    "hindi": "दुकान कब बंद होती है?",
+    "english": "When does the shop close?",
+    "audio_hint": "Ka dukan ka khang mynno?"
+  },
+  {
+    "category": "dining",
+    "khasi": "Ho-oid, nga la bam ja.",
+    "hindi": "हाँ, मैंने खाना खा लिया है।",
+    "english": "Yes, I have eaten.",
+    "audio_hint": "Ho-oid, nga la bam ja."
+  },
+  {
+    "category": "dining",
+    "khasi": "Nga thngan bha!",
+    "hindi": "मुझे बहुत तेज़ भूख लगी है!",
+    "english": "I am very hungry!",
+    "audio_hint": "Nga thngan bha!"
+  },
+  {
+    "category": "dining",
+    "khasi": "Nga sliang um!",
+    "hindi": "मुझे बहुत प्यास लगी है!",
+    "english": "I am thirsty for water!",
+    "audio_hint": "Nga sliang um!"
+  },
+  {
+    "category": "dining",
+    "khasi": "Sngewbha ai umdih.",
+    "hindi": "कृपया पीने का पानी दीजिए।",
+    "english": "Please give drinking water.",
+    "audio_hint": "Sngewbha ai umdih."
+  },
+  {
+    "category": "dining",
+    "khasi": "Kaei ka ja ba phi don mynta?",
+    "hindi": "आज आपके पास क्या खाना उपलब्ध है?",
+    "english": "What food / dishes do you have today?",
+    "audio_hint": "Kaei ka ja ba phi don mynta?"
+  },
+  {
+    "category": "dining",
+    "khasi": "Ai jadoh bad dohkhlieh.",
+    "hindi": "जादोह और दोहखलिएह परोसिए।",
+    "english": "Serve jadoh and dohkhlieh.",
+    "audio_hint": "Ai jadoh bad dohkhlieh."
+  },
+  {
+    "category": "dining",
+    "khasi": "Kane ka ja ka bang shibun!",
+    "hindi": "यह खाना बहुत ही स्वादिष्ट है!",
+    "english": "This food is extremely delicious!",
+    "audio_hint": "Kane ka ja ka bang shibun!"
+  },
+  {
+    "category": "dining",
+    "khasi": "Don sha saw ne sha dud?",
+    "hindi": "क्या लाल चाय (काली चाय) है या दूध वाली चाय?",
+    "english": "Do you have red tea (black tea) or milk tea?",
+    "audio_hint": "Don sha saw ne sha dud?"
+  },
+  {
+    "category": "dining",
+    "khasi": "Ai ar khla ka sha saw.",
+    "hindi": "दो कप लाल चाय दीजिए।",
+    "english": "Give two cups of red tea.",
+    "audio_hint": "Ai ar khla ka sha saw."
+  },
+  {
+    "category": "dining",
+    "khasi": "Ai pukhlein bad pumaloi.",
+    "hindi": "पुखलेन और पुमलोई दीजिए।",
+    "english": "Serve pukhlein and pumaloi.",
+    "audio_hint": "Ai pukhlein bad pumaloi."
+  },
+  {
+    "category": "dining",
+    "khasi": "Phi kwah duma ne kwai?",
+    "hindi": "क्या आप तंबाकू या सुपारी लेंगे?",
+    "english": "Would you like tobacco or betel nut?",
+    "audio_hint": "Phi kwah duma ne kwai?"
+  },
+  {
+    "category": "dining",
+    "khasi": "Nga la kdang bha.",
+    "hindi": "मेरा पेट पूरी तरह भर गया है।",
+    "english": "I am completely full.",
+    "audio_hint": "Nga la kdang bha."
+  },
+  {
+    "category": "dining",
+    "khasi": "Ka doh syiar ka la ih bha.",
+    "hindi": "चिकन बहुत अच्छी तरह पका हुआ है।",
+    "english": "The chicken meat is well cooked.",
+    "audio_hint": "Ka doh syiar ka la ih bha."
+  },
+  {
+    "category": "dining",
+    "khasi": "Wat buh sohmynken shibun.",
+    "hindi": "ज़्यादा मिर्च मत डालिए।",
+    "english": "Do not put too much chili.",
+    "audio_hint": "Wat buh sohmynken shibun."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Wan rung shapoh!",
+    "hindi": "अंदर आ जाइए!",
+    "english": "Come inside!",
+    "audio_hint": "Wan rung shapoh!"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Sngewbha shim jaka shong.",
+    "hindi": "कृपया अपना स्थान ग्रहण कीजिए / बैठिए।",
+    "english": "Please take a seat / make yourself comfortable.",
+    "audio_hint": "Sngewbha shim jaka shong."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Dih sha khyndiat.",
+    "hindi": "थोड़ी चाय पी लीजिए।",
+    "english": "Have a little tea.",
+    "audio_hint": "Dih sha khyndiat."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Khublei ba phi wan jngoh ïa ngi.",
+    "hindi": "हमसे मिलने आने के लिए आपका बहुत धन्यवाद।",
+    "english": "Thank you for visiting us.",
+    "audio_hint": "Khublei ba phi wan jngoh ia ngi."
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Kumno ka ïing ka sem?",
+    "hindi": "घर-परिवार में सब ठीक-ठाक है?",
+    "english": "How is your household and family?",
+    "audio_hint": "Kumno ka iing ka sem?"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "Phi don katno ngut ki khun?",
+    "hindi": "आपके कितने बच्चे हैं?",
+    "english": "How many children do you have?",
+    "audio_hint": "Phi don katno ngut ki khun?"
+  },
+  {
+    "category": "hospitality",
+    "khasi": "U kpa bad ka mei ki long kumno?",
+    "hindi": "माता-पिताजी कैसे हैं?",
+    "english": "How are father and mother?",
+    "audio_hint": "U kpa bad ka mei ki long kumno?"
+  },
+  {
+    "category": "parting",
+    "khasi": "Leit suk, wan suk!",
+    "hindi": "कुशलता से जाइए, कुशलता से आइए! (पारंपरिक विदाई आशीर्वाद)",
+    "english": "Go in peace, return in peace! (Traditional Khasi farewell blessing)",
+    "audio_hint": "Leit suk, wan suk!"
+  },
+  {
+    "category": "parting",
+    "khasi": "To khublei, ngin sa ïa shem biang.",
+    "hindi": "नमस्ते, हम फिर मिलेंगे।",
+    "english": "Goodbye, we will see each other again.",
+    "audio_hint": "To khublei, ngin sa ia shem biang."
+  },
+  {
+    "category": "children",
+    "khasi": "Ko khun, leit thiah noh!",
+    "hindi": "बेटा/बेटी, अब सोने जाओ!",
+    "english": "Child, go to sleep now!",
+    "audio_hint": "Ko khun, leit thiah noh!"
+  },
+  {
+    "category": "children",
+    "khasi": "Leit pule la ki kot!",
+    "hindi": "जाओ और अपनी पढ़ाई करो / किताबें पढ़ो!",
+    "english": "Go study your books!",
+    "audio_hint": "Leit pule la ki kot!"
+  },
+  {
+    "category": "children",
+    "khasi": "Wat ïalehkai ha ka ktieh!",
+    "hindi": "कीचड़ में मत खेलो!",
+    "english": "Do not play in the mud!",
+    "audio_hint": "Wat ialehkai ha ka ktieh!"
+  },
+  {
+    "category": "children",
+    "khasi": "Bam bha ïa ka ja jong pha.",
+    "hindi": "अपना खाना ठीक से खाओ।",
+    "english": "Eat your food properly.",
+    "audio_hint": "Bam bha ia ka ja jong pha."
+  },
+  {
+    "category": "children",
+    "khasi": "Phi la leh ïa ka kam ïing?",
+    "hindi": "क्या तुमने अपना गृहकार्य (होमवर्क) कर लिया?",
+    "english": "Have you finished your homework?",
+    "audio_hint": "Phi la leh ia ka kam iing?"
+  },
+  {
+    "category": "children",
+    "khasi": "Wan shane sha I Mei.",
+    "hindi": "यहाँ माँ के पास आओ।",
+    "english": "Come here to Mother.",
+    "audio_hint": "Wan shane sha I Mei."
+  },
+  {
+    "category": "children",
+    "khasi": "Kaba bha tam ka long ban kohnguh ïa ki kmie ki kpa.",
+    "hindi": "माता-पिता का आज्ञापालन करना ही सबसे उत्तम है।",
+    "english": "The best virtue is to obey mother and father.",
+    "audio_hint": "Kaba bha tam ka long ban kohnguh ia ki kmie ki kpa."
+  },
+  {
+    "category": "children",
+    "khasi": "To kmen, wat ïam!",
+    "hindi": "खुश रहो, रोओ मत!",
+    "english": "Cheer up, do not cry!",
+    "audio_hint": "To kmen, wat iam!"
+  },
+  {
+    "category": "children",
+    "khasi": "Iano phi ieit tam?",
+    "hindi": "आप सबसे ज्यादा किससे प्यार करते हैं?",
+    "english": "Whom do you love the most?",
+    "audio_hint": "Iano phi ieit tam?"
+  },
+  {
+    "category": "children",
+    "khasi": "Nga ieit eh ïa la ka kmie bad u kpa.",
+    "hindi": "मैं अपने माता-पिता से बहुत प्यार करता हूँ।",
+    "english": "I love my mother and father very much.",
+    "audio_hint": "Nga ieit eh ia la ka kmie bad u kpa."
+  },
+  {
+    "category": "education",
+    "khasi": "Ha kano ka skul phi pule?",
+    "hindi": "आप किस विद्यालय में पढ़ते हैं?",
+    "english": "Which school do you study in?",
+    "audio_hint": "Ha kano ka skul phi pule?"
+  },
+  {
+    "category": "education",
+    "khasi": "U nonghikai u wan mynta ka sngi?",
+    "hindi": "क्या शिक्षक आज आए हैं?",
+    "english": "Did the teacher come today?",
+    "audio_hint": "U nonghikai u wan mynta ka sngi?"
+  },
+  {
+    "category": "education",
+    "khasi": "Lano kan long ka eksamin?",
+    "hindi": "परीक्षा कब होगी?",
+    "english": "When will the examination take place?",
+    "audio_hint": "Lano kan long ka eksamin?"
+  },
+  {
+    "category": "education",
+    "khasi": "Nga pule ha ka klas hynriew.",
+    "hindi": "मैं कक्षा छह में पढ़ता हूँ।",
+    "english": "I study in class six.",
+    "audio_hint": "Nga pule ha ka klas hynriew."
+  },
+  {
+    "category": "education",
+    "khasi": "Sngewbha pynshai ïa kane ka lisen.",
+    "hindi": "कृपया इस पाठ को समझाइए।",
+    "english": "Please explain this lesson.",
+    "audio_hint": "Sngewbha pynshai ia kane ka lisen."
+  },
+  {
+    "category": "education",
+    "khasi": "Don kot pule ha ka laibri?",
+    "hindi": "क्या पुस्तकालय में पाठ्यपुस्तकें हैं?",
+    "english": "Are there textbooks in the library?",
+    "audio_hint": "Don kot pule ha ka laibri?"
+  },
+  {
+    "category": "education",
+    "khasi": "U la pass bha ha ka jingpule.",
+    "hindi": "वह अपनी पढ़ाई में बहुत अच्छे अंकों से उत्तीर्ण हुआ।",
+    "english": "He passed very well in his studies.",
+    "audio_hint": "U la pass bha ha ka jingpule."
+  },
+  {
+    "category": "education",
+    "khasi": "Ka jingnang jingstad ka dei ka spah ba kordor tam.",
+    "hindi": "विद्या और ज्ञान ही सबसे अनमोल संपत्ति है।",
+    "english": "Education and wisdom are the most precious wealth.",
+    "audio_hint": "Ka jingnang jingstad ka dei ka spah ba kordor tam."
+  },
+  {
+    "category": "education",
+    "khasi": "Nga kwah ban leit sha kolej.",
+    "hindi": "मैं कॉलेज जाना चाहता हूँ।",
+    "english": "I want to attend college.",
+    "audio_hint": "Nga kwah ban leit sha kolej."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Nga trei ha ophis.",
+    "hindi": "मैं कार्यालय (दफ़्तर) में काम करता हूँ।",
+    "english": "I work in an office.",
+    "audio_hint": "Nga trei ha ophis."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Lano ngin don ka jingïalang?",
+    "hindi": "हमारी बैठक (मीटिंग) कब होगी?",
+    "english": "When will we have the meeting?",
+    "audio_hint": "Lano ngin don ka jingialang?"
+  },
+  {
+    "category": "workplace",
+    "khasi": "Sngewbha phah ïa ka ripote.",
+    "hindi": "कृपया रिपोर्ट भेज दीजिए।",
+    "english": "Please send the report.",
+    "audio_hint": "Sngewbha phah ia ka ripote."
+  },
+  {
+    "category": "workplace",
+    "khasi": "U manijar u kwah ban ïakynduh ïa phi.",
+    "hindi": "प्रबंधक आपसे मिलना चाहते हैं।",
+    "english": "The manager wants to meet you.",
+    "audio_hint": "U manijar u kwah ban iakynduh ia phi."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Ka tulop kan wan ha kaba kut u bnai.",
+    "hindi": "वेतन महीने के अंत में आएगा।",
+    "english": "The salary will arrive at the end of the month.",
+    "audio_hint": "Ka tulop kan wan ha kaba kut u bnai."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Ka kam ka dang bun eh mynta ka sngi.",
+    "hindi": "आज बहुत सारा काम बाकी है।",
+    "english": "There is a lot of work today.",
+    "audio_hint": "Ka kam ka dang bun eh mynta ka sngi."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Sngewbha soi ha kane ka kot.",
+    "hindi": "कृपया इस दस्तावेज़ पर हस्ताक्षर कीजिए।",
+    "english": "Please sign on this document.",
+    "audio_hint": "Sngewbha soi ha kane ka kot."
+  },
+  {
+    "category": "workplace",
+    "khasi": "Ka dei ka kam ba donkam kyrkieh.",
+    "hindi": "यह अत्यंत आवश्यक/अत्यावश्यक कार्य है।",
+    "english": "It is an urgent matter.",
+    "audio_hint": "Ka dei ka kam ba donkam kyrkieh."
+  },
+  {
+    "category": "health",
+    "khasi": "Nga sngewmet shitom.",
+    "hindi": "मेरी तबीयत ठीक नहीं लग रही है।",
+    "english": "I am feeling unwell / sick.",
+    "audio_hint": "Nga sngewmet shitom."
+  },
+  {
+    "category": "health",
+    "khasi": "Ka khlieh jong nga ka sat bha.",
+    "hindi": "मेरे सिर में बहुत तेज़ दर्द हो रहा है।",
+    "english": "My head hurts severely / I have a bad headache.",
+    "audio_hint": "Ka khlieh jong nga ka sat bha."
+  },
+  {
+    "category": "health",
+    "khasi": "Nga don ka jingshit met.",
+    "hindi": "मुझे बुखार आ रहा है।",
+    "english": "I have a fever.",
+    "audio_hint": "Nga don ka jingshit met."
+  },
+  {
+    "category": "health",
+    "khasi": "Hangno don ka hospital ba jan tam?",
+    "hindi": "निकटतम अस्पताल कहाँ है?",
+    "english": "Where is the nearest hospital?",
+    "audio_hint": "Hangno don ka hospital ba jan tam?"
+  },
+  {
+    "category": "health",
+    "khasi": "Kumno ngan leit sha Civil Hospital?",
+    "hindi": "सिविल अस्पताल कैसे पहुँचूँ?",
+    "english": "How do I get to the Civil Hospital?",
+    "audio_hint": "Kumno ngan leit sha Civil Hospital?"
+  },
+  {
+    "category": "health",
+    "khasi": "Nga donkam ban ïohi ïa u doktor.",
+    "hindi": "मुझे डॉक्टर से मिलना ज़रूरी है।",
+    "english": "I need to see a doctor.",
+    "audio_hint": "Nga donkam ban iohi ia u doktor."
+  },
+  {
+    "category": "health",
+    "khasi": "Sngewbha khot ambulance mardor!",
+    "hindi": "कृपया तुरंत एम्बुलेंस बुलाइए!",
+    "english": "Please call an ambulance immediately!",
+    "audio_hint": "Sngewbha khot ambulance mardor!"
+  },
+  {
+    "category": "health",
+    "khasi": "U donkam dawai kyrkieh.",
+    "hindi": "उन्हें तुरंत दवाई की आवश्यकता है।",
+    "english": "He needs medicine urgently.",
+    "audio_hint": "U donkam dawai kyrkieh."
+  },
+  {
+    "category": "health",
+    "khasi": "Nga la twat ka kjat.",
+    "hindi": "मेरे पैर में मोच आ गई है।",
+    "english": "I have sprained my foot/ankle.",
+    "audio_hint": "Nga la twat ka kjat."
+  },
+  {
+    "category": "health",
+    "khasi": "Kylla khlain noh kloi kloi!",
+    "hindi": "शीघ्र स्वस्थ हो जाइए!",
+    "english": "Get well soon!",
+    "audio_hint": "Kylla khlain noh kloi kloi!"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Khot ïa ki pulit mardor!",
+    "hindi": "तुरंत पुलिस को बुलाइए!",
+    "english": "Call the police immediately!",
+    "audio_hint": "Khot ia ki pulit mardor!"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Don ba tuh ïa ka pla pisa jong nga!",
+    "hindi": "किसी ने मेरा बटुआ चुरा लिया!",
+    "english": "Someone stole my wallet/purse!",
+    "audio_hint": "Don ba tuh ia ka pla pisa jong nga!"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Don ba leh thok ïa nga ha internet.",
+    "hindi": "किसी ने इंटरनेट पर मेरे साथ धोखाधड़ी/स्कैम किया।",
+    "english": "Someone scammed / defrauded me online.",
+    "audio_hint": "Don ba leh thok ia nga ha internet."
+  },
+  {
+    "category": "emergency",
+    "khasi": "Hangno don ka thanat pulit?",
+    "hindi": "पुलिस स्टेशन (थाना) कहाँ है?",
+    "english": "Where is the police station?",
+    "audio_hint": "Hangno don ka thanat pulit?"
+  },
+  {
+    "category": "emergency",
+    "khasi": "Nga kwah ban ai ejahar.",
+    "hindi": "मैं प्राथमिकी (FIR) दर्ज कराना चाहता हूँ।",
+    "english": "I want to lodge an FIR / police complaint.",
+    "audio_hint": "Nga kwah ban ai ejahar."
+  },
+  {
+    "category": "emergency",
+    "khasi": "Wat shaniah ha ki briew ba phi ym ithuh.",
+    "hindi": "अजनबियों पर आँख मूंदकर भरोसा मत कीजिए।",
+    "english": "Do not trust people whom you do not know.",
+    "audio_hint": "Wat shaniah ha ki briew ba phi ym ithuh."
+  },
+  {
+    "category": "emergency",
+    "khasi": "Wat ai la ka OTP ne password shano shano.",
+    "hindi": "अपना OTP या पासवर्ड किसी को भी मत दीजिए।",
+    "english": "Never give your OTP or password to anyone.",
+    "audio_hint": "Wat ai la ka OTP ne password shano shano."
+  },
+  {
+    "category": "emergency",
+    "khasi": "Don ka jingjia ba shyrkhei ha surok.",
+    "hindi": "सड़क पर एक भयानक दुर्घटना हुई है।",
+    "english": "There is a terrible accident on the road.",
+    "audio_hint": "Don ka jingjia ba shyrkhei ha surok."
+  },
+  {
+    "category": "emergency",
+    "khasi": "Ka ding ka la klang!",
+    "hindi": "आग भड़क गई है!",
+    "english": "Fire has broken out!",
+    "audio_hint": "Ka ding ka la klang!"
+  },
+  {
+    "category": "technology",
+    "khasi": "Don WiFi shane?",
+    "hindi": "क्या यहाँ वाई-फाई उपलब्ध है?",
+    "english": "Is there WiFi here?",
+    "audio_hint": "Don WiFi shane?"
+  },
+  {
+    "category": "technology",
+    "khasi": "Kaei ka password jong ka WiFi?",
+    "hindi": "वाई-फाई का पासवर्ड क्या है?",
+    "english": "What is the WiFi password?",
+    "audio_hint": "Kaei ka password jong ka WiFi?"
+  },
+  {
+    "category": "technology",
+    "khasi": "Ka mobile jong nga kam don network.",
+    "hindi": "मेरे मोबाइल में नेटवर्क नहीं आ रहा है।",
+    "english": "My mobile phone has no network coverage.",
+    "audio_hint": "Ka mobile jong nga kam don network."
+  },
+  {
+    "category": "technology",
+    "khasi": "Ka battery ka la duna eh.",
+    "hindi": "बैटरी बहुत कम बची है।",
+    "english": "The battery is very low.",
+    "audio_hint": "Ka battery ka la duna eh."
+  },
+  {
+    "category": "technology",
+    "khasi": "Hangno nga lah ban charge ïa ka phone?",
+    "hindi": "मैं फोन कहाँ चार्ज कर सकता हूँ?",
+    "english": "Where can I charge my phone?",
+    "audio_hint": "Hangno nga lah ban charge ia ka phone?"
+  },
+  {
+    "category": "technology",
+    "khasi": "Sngewbha phah WhatsApp message.",
+    "hindi": "कृपया व्हाट्सएप संदेश भेजिए।",
+    "english": "Please send a WhatsApp message.",
+    "audio_hint": "Sngewbha phah WhatsApp message."
+  },
+  {
+    "category": "technology",
+    "khasi": "Phah pisa da ka Google Pay ne UPI.",
+    "hindi": "गूगल पे या यूपीआई से पैसे भेजिए।",
+    "english": "Send money through Google Pay or UPI.",
+    "audio_hint": "Phah pisa da ka Google Pay ne UPI."
+  },
+  {
+    "category": "technology",
+    "khasi": "Ka kompiwter kam trei kam.",
+    "hindi": "कंप्यूटर काम नहीं कर रहा है।",
+    "english": "The computer is not functioning.",
+    "audio_hint": "Ka kompiwter kam trei kam."
+  },
+  {
+    "category": "technology",
+    "khasi": "Sngewbha shon ha kane ka link.",
+    "hindi": "कृपया इस लिंक पर क्लिक कीजिए।",
+    "english": "Please click on this link.",
+    "audio_hint": "Sngewbha shon ha kane ka link."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka mariang ka khriat bha mynta ka miet.",
+    "hindi": "आज रात मौसम बहुत ठंडा है।",
+    "english": "The weather is very cold tonight.",
+    "audio_hint": "Ka mariang ka khriat bha mynta ka miet."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka slap kaba jur bha ha Sohra.",
+    "hindi": "सोहरा में बहुत मूसलाधार बारिश हो रही है।",
+    "english": "It is raining very heavily in Sohra.",
+    "audio_hint": "Ka slap kaba jur bha ha Sohra."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka lyoh ka tap ïa ki lum.",
+    "hindi": "कोहरा / बादल पहाड़ों को ढक रहा है।",
+    "english": "The fog / mist envelops the hills.",
+    "audio_hint": "Ka lyoh ka tap ia ki lum."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka sngi ka phyrnai bha.",
+    "hindi": "धूप बहुत चमकदार खिली हुई है।",
+    "english": "The sun is shining brightly.",
+    "audio_hint": "Ka sngi ka phyrnai bha."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka lyer ka beh jur eh.",
+    "hindi": "तेज़ हवा चल रही है।",
+    "english": "The wind is blowing strongly.",
+    "audio_hint": "Ka lyer ka beh jur eh."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ka kshaid Nohkalikai ka don ka um ba bun.",
+    "hindi": "नोहकलिकाई जलप्रपात में प्रचुर पानी है।",
+    "english": "Nohkalikai waterfall has abundant water flow.",
+    "audio_hint": "Ka kshaid Nohkalikai ka don ka um ba bun."
+  },
+  {
+    "category": "nature",
+    "khasi": "Ki lum Khasi ki itynnad palat ha aïom pyrem.",
+    "hindi": "वसंत ऋतु में खासी पहाड़ियां अत्यंत मनोरम लगती हैं।",
+    "english": "The Khasi hills are exceedingly picturesque in spring.",
+    "audio_hint": "Ki lum Khasi ki itynnad palat ha aiom pyrem."
+  },
+  {
+    "category": "festivals",
+    "khasi": "Khublei Shad Suk Mynsiem!",
+    "hindi": "शाद सुक मिनसिएम पर्व की हार्दिक शुभकामनाएँ!",
+    "english": "Happy Shad Suk Mynsiem festival!",
+    "audio_hint": "Khublei Shad Suk Mynsiem!"
+  },
+  {
+    "category": "festivals",
+    "khasi": "Khublei Pomblang Nongkrem!",
+    "hindi": "नोंगक्रेम नृत्य उत्सव की हार्दिक शुभकामनाएँ!",
+    "english": "Happy Pomblang Nongkrem festival!",
+    "audio_hint": "Khublei Pomblang Nongkrem!"
+  },
+  {
+    "category": "festivals",
+    "khasi": "Khublei Seng Kut Snem!",
+    "hindi": "सेंग कुट स्निम दिवस की शुभकामनाएँ!",
+    "english": "Happy Seng Kut Snem celebrations!",
+    "audio_hint": "Khublei Seng Kut Snem!"
+  },
+  {
+    "category": "festivals",
+    "khasi": "Khublei Behdeinkhlam!",
+    "hindi": "बेहदेनखलम पर्व की हार्दिक बधाई!",
+    "english": "Happy Behdeinkhlam festival!",
+    "audio_hint": "Khublei Behdeinkhlam!"
+  },
+  {
+    "category": "festivals",
+    "khasi": "U Blei un kyrkhu kyrdoh ïa phi!",
+    "hindi": "ईश्वर आपको भरपूर आशीर्वाद प्रदान करें!",
+    "english": "May God bless you abundantly!",
+    "audio_hint": "U Blei un kyrkhu kyrdoh ia phi!"
+  },
+  {
+    "category": "festivals",
+    "khasi": "To long uba bha uba beit ha ka jingim.",
+    "hindi": "जीवन में सदैव सच्चे और भले इंसान बनो।",
+    "english": "Be upright and righteous in life.",
+    "audio_hint": "To long uba bha uba beit ha ka jingim."
+  },
+  {
+    "category": "festivals",
+    "khasi": "Aïom suk, aïom kmen sha phi baroh!",
+    "hindi": "आप सभी के लिए शांति और आनंद का मौसम हो!",
+    "english": "Season of peace and joy to you all!",
+    "audio_hint": "Aiom suk, aiom kmen sha phi baroh!"
+  }
+]
