@@ -21,7 +21,7 @@
 
 ---
 
-## ⚡ Quick Start for Teammates (One-Click Setup)
+## ⚡ Quick Start (One-Click Setup)
 
 Open **PowerShell** in the project directory and run:
 
