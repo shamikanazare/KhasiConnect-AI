@@ -1,0 +1,8 @@
+dataset_name,system,source_url,license,modality,size_records,notes
+user10383_parallel_corpus,System A,https://huggingface.co/datasets/user10383/english-khasi-parallel-corpus,Open / Academic,Text Parallel,1753951,Primary parallel training and testing splits for translation
+bhasaflow_parallel_corpus,System A,https://huggingface.co/datasets/MEDHARVIX-SYSTEMS/bhasaflow-khasi-english-parallel-corpus-v1,Open Academic,Text Parallel,200,Clean parallel pairs
+khasi_language_library,System A,https://github.com/infoakshatsinghbisht-eng/KHASI-language-library,MIT,Lexicon & Grammar,105296,Khasi morphological analyzer and dictionary
+tatoeba_khasi,System A,https://tatoeba.org/,CC-BY 2.0 FR,Text Parallel,2409,Community validated Khasi sentences
+badnyal_khasi_ocr_benchmark,System A,https://huggingface.co/datasets/Badnyal/khasi-ocr-benchmark-2k,Open Access,Image & Text OCR,2000,Ground truth OCR line crops and annotations
+meghalaya_tourism_portal,System B,https://www.meghalayatourism.in/,Official Government Portal,Factual Knowledge,5,Official destination and safety information
+erss_112_portal,System B,https://112.gov.in/,Official Government Portal,Emergency Knowledge,1,National Emergency Response System

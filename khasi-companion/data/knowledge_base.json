@@ -1,0 +1,83 @@
+[
+  {
+    "id": "TOUR-001",
+    "category": "tourism_destination",
+    "title": "Nohkalikai Falls (Cherrapunji / Sohra)",
+    "content": {
+      "en": "Nohkalikai Falls is one of the tallest plunge waterfalls in India, located near Sohra (Cherrapunji) in the East Khasi Hills district. Visitors view the falls from an official viewing gallery above the plunge pool."
+    },
+    "language": "en",
+    "location": "Sohra (Cherrapunji), East Khasi Hills, Meghalaya",
+    "opening_hours": "Check local daylight hours at the Sohra viewpoint entry counter (unverified online).",
+    "price_info": "Entry ticket required; verify current local rates on arrival.",
+    "safety_notes": "Stay within marked viewing railings; heavy mist and slippery paths are common during monsoon.",
+    "source_name": "Meghalaya Tourism Official Portal",
+    "source_url": "https://www.meghalayatourism.in/",
+    "verification_status": "needs_review",
+    "last_reviewed": "2026-10-15",
+    "notes": "Verify exact current ticket fee and viewing hours with local tourism officials before marking verified_official."
+  },
+  {
+    "id": "SAFE-001",
+    "category": "safety_and_emergency",
+    "title": "National Emergency Response Support System (ERSS)",
+    "content": {
+      "en": "For urgent police, fire, or medical emergencies in Meghalaya, dial 112 (India's official all-in-one emergency number). Do not rely on unverified automated translations during a medical or legal emergency."
+    },
+    "language": "en",
+    "location": "Meghalaya (Statewide)",
+    "source_name": "112 India Official ERSS Portal",
+    "source_url": "https://112.gov.in/",
+    "verification_status": "verified_official",
+    "last_reviewed": "2026-10-15",
+    "notes": "Official pan-India emergency number. Keep separately audited."
+  },
+  {
+    "id": "CULT-001",
+    "category": "culture_and_etiquette",
+    "title": "Respecting Sacred Groves (Law Kyntang)",
+    "content": {
+      "en": "Many forests in Meghalaya, such as the Mawphlang Sacred Grove, are protected by traditional community rules. Visitors should hire a local guide and strictly follow local customs, including not removing any leaves, stones, or forest items."
+    },
+    "language": "en",
+    "location": "East Khasi Hills, Meghalaya",
+    "source_name": "Meghalaya Tourism Official Portal",
+    "source_url": "https://www.meghalayatourism.in/",
+    "verification_status": "needs_review",
+    "last_reviewed": "2026-10-15",
+    "notes": "Request community/guide review before changing status to verified_native_speaker."
+  },
+  {
+    "id": "TOUR-002",
+    "category": "tourism_destination",
+    "title": "Double Decker Living Root Bridge (Nongriat)",
+    "content": {
+      "en": "The Jingkieng Nongriat Double Decker Living Root Bridge is an indigenous bio-engineering marvel made from the roots of Ficus elastica trees by local Khasi villagers over centuries. Reaching it involves a steep descent of over 3,000 stone steps from Tyrna village."
+    },
+    "language": "en",
+    "location": "Nongriat, East Khasi Hills, Meghalaya",
+    "opening_hours": "Daylight hours recommended for safety. Trekking after dusk is strictly discouraged.",
+    "price_info": "Community entry and camera fees payable at Tyrna and Nongriat village checkpoints.",
+    "safety_notes": "Requires physical stamina for 3,000+ stairs. Carry adequate drinking water and non-slip footwear.",
+    "source_name": "Meghalaya Tourism Official Portal",
+    "source_url": "https://www.meghalayatourism.in/",
+    "verification_status": "needs_review",
+    "last_reviewed": "2026-10-15",
+    "notes": "Advise travelers on physical fitness requirements and hiring registered local guides from Tyrna."
+  },
+  {
+    "id": "TRANS-001",
+    "category": "transportation",
+    "title": "Shared Taxis and Regional Transport",
+    "content": {
+      "en": "Shared yellow-and-black sumo/cabs operate between major towns in Meghalaya. The primary hub for inter-district transit in Shillong is Anjalee Stand and Police Bazar (Khyndailad). Always confirm passenger fares before boarding."
+    },
+    "language": "en",
+    "location": "Shillong, Meghalaya",
+    "source_name": "Meghalaya Transport Information",
+    "source_url": "https://megtransport.gov.in/",
+    "verification_status": "needs_review",
+    "last_reviewed": "2026-10-15",
+    "notes": "Fares fluctuate based on fuel rates; app must explicitly warn that fares are subject to local revision."
+  }
+]
