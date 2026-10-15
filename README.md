@@ -1,52 +1,78 @@
 # KhasiConnect AI — Datasets & Language Resources
 
 > **AI-Powered Khasi Language Learning, Translation, and Digital Accessibility**  
-> Comprehensive multimodal dataset suite for Khasi Natural Language Processing, Machine Translation, Optical Character Recognition, and Speech Assistance.
+> Multimodal dataset pipeline and benchmarks for Khasi NLP, Machine Translation, Optical Character Recognition, and Speech Assistance.
 
 ---
 
-## 🚀 Quick Start (Automated Setup)
+## 👥 Teammate Guide: Setup in 60 Seconds
 
-If you have just cloned or received this repository, you can set up all datasets, dependencies, and test benchmarks automatically with a single **PowerShell** command.
+If you are a teammate joining the project, follow these simple steps in **PowerShell**:
 
-### One-Click PowerShell Command:
+### Step 1: Clone the Repository
+```powershell
+git clone https://github.com/shamikanazare/KhasiConnect-AI.git
+cd KhasiConnect-AI
+```
 
-Open **PowerShell** in this project directory (`e:\AI Project`) and run:
-
+### Step 2: Run the One-Click Setup Script
 ```powershell
 .\setup_datasets.ps1
 ```
 
-> **Note**: If your system restricts running scripts, run with bypass permissions:
+> **Note**: If PowerShell shows a script execution policy error, run:
 > ```powershell
 > powershell -ExecutionPolicy Bypass -File .\setup_datasets.ps1
 > ```
 
+That's it! The script will automatically:
+- Verify Python 3.10+
+- Install dependencies (`pip install -r requirements.txt`)
+- Download 1.75M+ parallel sentences, 105k+ dictionary entries, and OCR test images
+- Verify file counts and run benchmark test cases (TC-01 to TC-07)
+
 ---
 
-## 🛠 Manual Step-by-Step Setup (PowerShell)
+## 🛠 Manual Step-by-Step PowerShell Commands
 
-If you prefer to run the steps individually, follow these PowerShell commands:
+If you prefer to run the setup commands manually:
 
-### Step 1: Install Required Python Packages
 ```powershell
+# 1. Install Python package dependencies
 python -m pip install -r requirements.txt
-```
 
-### Step 2: Download & Organize All Datasets
-```powershell
+# 2. Download and organize all datasets across modules
 python scripts/download_all_datasets.py
-```
-*This downloads the 1.75M+ parallel sentences, 105k+ dictionary words, OCR benchmarks, and sample images into their designated directories under `datasets/`.*
 
-### Step 3: Audit & Verify Dataset Integrity
-```powershell
+# 3. Verify dataset counts, row numbers, and disk footprint
 python scripts/verify_datasets.py
+
+# 4. Run Chapter 7 benchmark tests (TC-01 through TC-07)
+python scripts/test_suite_evaluator.py
 ```
 
-### Step 4: Run Chapter 7 Benchmark Tests (TC-01 to TC-07)
+---
+
+## 🌐 How to Push This Repository to GitHub
+
+### 1. Create an Empty Repository on GitHub
+1. Open your browser and go to: **[https://github.com/new](https://github.com/new)**
+2. Set the repository name to: **`KhasiConnect-AI`**
+3. Choose **Public** or **Private**.
+4. **Important**: Leave "Add a README file", "Add .gitignore", and "Choose a license" **UNCHECKED** (we already have them configured).
+5. Click **Create repository**.
+
+### 2. Push from PowerShell
+Run either the automated push script:
 ```powershell
-python scripts/test_suite_evaluator.py
+.\push_to_github.ps1
+```
+
+Or run the standard Git commands directly:
+```powershell
+git remote add origin https://github.com/shamikanazare/KhasiConnect-AI.git
+git branch -M main
+git push -u origin main
 ```
 
 ---
@@ -54,8 +80,8 @@ python scripts/test_suite_evaluator.py
 ## 📂 Repository Structure
 
 ```text
-e:\AI Project\
-├── datasets/                                      # Downloaded & organized data
+KhasiConnect-AI/
+├── datasets/                                      # Downloaded data (cleanly organized)
 │   ├── parallel_translation/                      # Module 2: Translation (1.75M+ sentence pairs)
 │   ├── learning_assistant/                        # Module 1: Dictionary & phrases (105k+ words)
 │   ├── ocr_image_translation/                     # Module 3: OCR annotations & sample images
@@ -68,6 +94,7 @@ e:\AI Project\
 │   └── test_suite_evaluator.py                    # Evaluator running TC-01 to TC-07
 │
 ├── setup_datasets.ps1                             # ⚡ 1-click PowerShell setup wizard
+├── push_to_github.ps1                             # 🚀 Easy GitHub push helper script
 ├── requirements.txt                               # Python package dependencies
 ├── .gitignore                                     # Clean Git configuration for GitHub
 ├── DATASETS_OVERVIEW.md                           # In-depth dataset specifications
@@ -76,29 +103,21 @@ e:\AI Project\
 
 ---
 
-## 🌐 How to Share this Repository on GitHub
+## 🤝 Daily Team Collaboration Workflow
 
-Because this repository uses automated reproducible scripts, you **do not** need to upload 140 MB of large dataset files to GitHub. 
+When working with teammates on new code or features:
 
-To share with your teammates, guide, or open-source community:
-
-1. **Initialize Git & Commit**:
-   ```powershell
-   git init
-   git add .
-   git commit -m "Initialize KhasiConnect AI dataset pipeline, scripts, and shared language resource"
-   ```
-
-2. **Push to your GitHub repository**:
-   ```powershell
-   git branch -M main
-   git remote add origin https://github.com/<YOUR_USERNAME>/KhasiConnect-AI.git
-   git push -u origin main
-   ```
-
-3. **How Others Use It**:
-   Anyone who clones your repo can simply run:
-   ```powershell
-   .\setup_datasets.ps1
-   ```
-   All datasets will immediately download and verify on their machine automatically!
+* **Pull latest updates before starting work:**
+  ```powershell
+  git pull origin main
+  ```
+* **Save and share your updates:**
+  ```powershell
+  git add .
+  git commit -m "Description of changes made"
+  git push origin main
+  ```
+* **Re-verify tests before pushing:**
+  ```powershell
+  python scripts/test_suite_evaluator.py
+  ```
