@@ -1,0 +1,66 @@
+[
+  {
+    "test_id": "TC-01",
+    "module": "Module 1 - Learning Assistant",
+    "description": "Vocabulary lookup for a verified Khasi word",
+    "input": "Khublei",
+    "expected_behaviour": "Display correct English meaning ('Hello / Thank you / Blessings'), pronunciation guide ('Khu-blay'), and example sentences.",
+    "input_type": "text",
+    "target_language": "en"
+  },
+  {
+    "test_id": "TC-02",
+    "module": "Module 1 - Learning Assistant",
+    "description": "Sentence meaning lookup for a verified Khasi sentence",
+    "input": "Ka jingsuk ha kaba kut!",
+    "expected_behaviour": "Display reviewed translation ('Peace at last!') and grammatical breakdown of components.",
+    "input_type": "text",
+    "target_language": "en"
+  },
+  {
+    "test_id": "TC-03",
+    "module": "Module 2 - Voice-to-Voice Translation",
+    "description": "Short English voice input translated to Khasi",
+    "input": "Where is the way to go to the market?",
+    "expected_behaviour": "Produce accurate Khasi translation ('Hangno ka lynti ban leit sha iew?') and synthesized speech output.",
+    "input_type": "speech / text",
+    "target_language": "kha"
+  },
+  {
+    "test_id": "TC-04",
+    "module": "Module 2 - Voice-to-Voice Translation",
+    "description": "Short Khasi voice input translated to English",
+    "input": "Kumno phi long mynta ka sngi?",
+    "expected_behaviour": "Produce accurate English translation ('How are you today?') and English spoken output.",
+    "input_type": "speech / text",
+    "target_language": "en"
+  },
+  {
+    "test_id": "TC-05",
+    "module": "Module 3 - OCR Image Translation",
+    "description": "Extract text from clear printed Khasi notice/document and translate",
+    "input_sample_image": "sample_images/DOC17333794530_p003_l013.jpg",
+    "ground_truth_ocr": "nga long u",
+    "expected_behaviour": "Correctly extract printed characters ('nga long u') via OCR and translate to English ('I am').",
+    "input_type": "image",
+    "target_language": "en"
+  },
+  {
+    "test_id": "TC-06",
+    "module": "Module 3 - OCR Image Translation",
+    "description": "Handling degraded, blurred, or noisy input image",
+    "input_sample_image": "simulated_blur_sample.jpg",
+    "expected_behaviour": "Detect poor OCR confidence below threshold (e.g. conf < 0.60) and display a user warning instead of inaccurate text.",
+    "input_type": "image",
+    "target_language": "en"
+  },
+  {
+    "test_id": "TC-07",
+    "module": "Module 2 - Voice-to-Voice Translation",
+    "description": "Speech with background noise robustness testing",
+    "input": "Nga kwah ban bam ja (with 15dB ambient traffic noise)",
+    "expected_behaviour": "Measure transcription word error rate and provide confidence estimate.",
+    "input_type": "noisy_speech",
+    "target_language": "en"
+  }
+]

@@ -1,0 +1,21 @@
+id,khasi,english,category,verified
+S-01,Kumno phi kyrteng?,What is your name?,Greeting,True
+S-02,Ka kyrteng jong nga dei u John.,My name is John.,Greeting,True
+S-03,Nga sngewbha shibun ban don hangne.,I am very pleased to be here.,Social,True
+S-04,Kiei ki jingthmu jong phi?,What are your plans?,Conversation,True
+S-05,Ka jingsuk ha kaba kut!,Peace at last!,Idiomatic,True
+S-06,Hangno ka lynti ban leit sha Iewduh?,Where is the way to go to Iewduh market?,Directions,True
+S-07,Katno kane ka dor?,How much does this cost?,Marketplace,True
+S-08,Nga hap ban leit sha ka painkhana.,I have to go to the toilet.,Everyday,True
+S-09,"Wat sngewbha, sngewbha ai bor ïa nga.","Excuse me, please forgive me.",Politeness,True
+S-10,Phi lah ban kren phareng?,Can you speak English?,Language,True
+S-11,Nga tip khamtiem ïa ka Khasi.,I only know a little Khasi.,Language,True
+S-12,Sngewbha kren suki.,Please speak slowly.,Communication,True
+S-13,Nga thngan shibun.,I am very hungry.,Everyday,True
+S-14,Ai um dih sngewbha.,Please give drinking water.,Everyday,True
+S-15,Ka sngi ka shat bha mynta.,The sun is shining brightly today.,Weather,True
+S-16,U slap u la sdang ban ther jur.,The rain has started pouring heavily.,Weather,True
+S-17,Nga kwah ban thied kine ki jain.,I want to buy these clothes.,Shopping,True
+S-18,Kano ka kot pule kaba phi pule?,Which textbook are you reading?,Education,True
+S-19,Ki khynnah skul ki leit sha skul man ka step.,The school children go to school every morning.,Education,True
+S-20,U Blei un kyrkhu ïa phi.,May God bless you.,Blessing,True

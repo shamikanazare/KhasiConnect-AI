@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Large dataset files (re-downloadable via .\setup_datasets.ps1)
+datasets/parallel_translation/*.parquet
+datasets/learning_assistant/*.json
+datasets/learning_assistant/*.tsv
+datasets/learning_assistant/khasi_monolingual.csv
+datasets/ocr_image_translation/*.csv
+datasets/ocr_image_translation/sample_images/*.jpg
+datasets/speech_voice/*.csv
+
+# Keep directory structures and shared resource baseline
+!.gitkeep
+!datasets/**/.gitkeep
+!datasets/shared_language_resource/*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
